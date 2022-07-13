@@ -1,0 +1,187 @@
+.App {
+  text-align: center;
+}
+body {
+  background-image: url(https://wallpaperstock.net/whatsapp-background-wallpapers_51439_1920x1080.jpg);
+  background-size: cover;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main-container {
+  display: flex;
+}
+
+.whatsapp-chat-container {
+  width: 300px;
+  height: 500px !important;
+  border: none !important;
+  margin-top: 50px;
+  margin-left: 250px;
+}
+
+.whatsapp-chat-content {
+  background-image: url(https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png) !important;
+  background-size: cover;
+}
+
+.bar-container {
+  display: flex;
+  background-color: #075e54 !important;
+}
+
+.bar-chat-left-side {
+  display: flex;
+  margin-right: 70px;
+}
+
+.bar-chat-right-side {
+  display: flex;
+  margin-left: 25px !important;
+}
+
+.profile-picture {
+  width: 25px;
+  height: 25px;
+  border-radius: 30px;
+  margin-right: 5px;
+  margin-top: 3px;
+}
+
+.user-name-chat {
+  font-size: 15px;
+  margin-top: 6.5px;
+  margin-bottom: 6.5px;
+}
+.arrow-chat {
+  margin-right: 3px;
+}
+
+.more-options-chat,
+.phone-chat,
+.video-chat {
+  margin-right: 15px;
+}
+
+.ws-logo {
+  width: 200px;
+  margin-top: 188px;
+  margin-left: 200px;
+}
+.input-chat-container {
+  display: flex;
+  position: relative;
+  background-image: url(https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png);
+  padding-left: 8px;
+  padding-bottom: 5px;
+}
+
+.input-chat-bar {
+  display: flex;
+}
+
+.input-main {
+  border-radius: 0px !important;
+  border: none !important;
+}
+.camera-log {
+  color: #a19999;
+  background-color: white;
+  padding-right: 5px;
+  border-radius: 0px 5px 5px 0px;
+}
+.emoticons-log {
+  color: #a19999;
+  background-color: white;
+  padding-left: 5px;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.voice-note-chat {
+  background-color: #075e54;
+  border-radius: 20px;
+  width: 28px;
+  height: 28px;
+  margin-top: 1.5px;
+  margin-left: 10px;
+}
+
+/*BURBUJA MENSAJE ENVIADO*/
+.globo-send {
+  margin-left: 80px;
+  padding: 0px !important;
+  background-color: #dcf8c6 !important;
+  border: none !important;
+}
+
+.user-name-send {
+  font-size: 12px;
+  text-align: end;
+  margin-right: 5px;
+}
+
+.text-message-chat-send {
+  font-size: 8px;
+  margin: 0px;
+  text-align: end;
+  padding-left: 5px;
+  padding-right: 15px;
+}
+
+.time-send {
+  font-size: 6px;
+  text-align: end;
+  padding-right: 5px;
+  padding-bottom: 2px;
+}
+
+.check-chat {
+  color: #34b7f1;
+}
+
+/*BURBUJA MENSAJE DE VUELTA*/
+.globo-received {
+  margin-right: 80px;
+  padding: 0px !important;
+  background-color: white !important;
+  border: none !important;
+}
+
+.user-name-received {
+  font-size: 12px;
+  text-align: start;
+  margin-left: 5px;
+}
+
+.text-message-chat-received {
+  font-size: 8px;
+  margin: 0px;
+  text-align: start;
+  padding-left: 5px;
+  padding-right: 15px;
+}
+
+.time-received {
+  font-size: 6px;
+  text-align: end;
+  padding-right: 5px;
+  padding-bottom: 2px;
+}
+
+.user-select-container {
+  margin-top: 250px;
+  margin-left: 30px;
+  color: white;
+}
+
+.select-user-title {
+  font-size: 20px;
+  font-style: italic;
+}
